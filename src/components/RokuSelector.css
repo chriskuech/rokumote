@@ -1,0 +1,18 @@
+
+.roku-selector .placeholder {
+  border-left: 10px solid #333;
+  transition: border-left-width 0.2s;
+}
+
+.roku-selector:hover .placeholder {
+  border-left-width: 0px;
+}
+
+.roku-selector .options {
+  opacity: 0;
+  transition: opacity ease-in 0.2s;
+}
+
+.roku-selector:hover .options {
+  opacity: 1;
+}
