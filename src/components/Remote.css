@@ -1,9 +1,0 @@
-
-.remote-button:hover {
-  color: rgb(102, 45, 143);
-}
-
-.remote-button:active {
-  background: rgb(102, 45, 143);
-  color: inherit;
-}
