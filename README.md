@@ -1,3 +1,7 @@
+# Rokumote
+Minimalist Roku remote that runs in your browser and constrols Rokus or Roku TVs on your local network.
+
+![screenshot](https://raw.githubusercontent.com/chriskuech/rokumote/master/docs/screenshot.png)
 
 # Using
 1. Configure static IPs for your Rokus on your router
