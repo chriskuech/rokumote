@@ -1,8 +1,8 @@
 import config from "config.json";
 import { FunctionComponent } from "react";
 import React from "react";
-import { setRoku, getRoku } from "services/roku";
 import "./RokuSelector.css";
+import { RokuConsumer } from "components/RokuContext";
 
 const Indicator: FunctionComponent<{ on?: boolean }> =
   ({ on }) => (
@@ -35,18 +35,24 @@ const RokuSelectorOption: FunctionComponent<RokuSelectorOptionProps> =
 
 const RokuSelector =
   () => (
-    <div className="roku-selector" style={{ padding: "0.3em", display: "flex" }}>
-      <div className="placeholder" />
-      <div className="options">
-        {config.rokus.map((roku) => (
-          <RokuSelectorOption
-            {...roku}
-            onClick={() => setRoku(roku)}
-            selected={roku.name === getRoku().name}
-            key={roku.name}
-          />
-        ))}
-      </div>
+    <div className="roku-selector" style={{ padding: "0.3em", display: "flex", cursor: "pointer" }}>
+      <RokuConsumer>
+        {({ roku, setRoku }) => (
+          <>
+            <div className="placeholder" />
+            <div className="options">
+              {config.rokus.map((candidateRoku) => (
+                <RokuSelectorOption
+                  {...candidateRoku}
+                  onClick={() => setRoku(candidateRoku)}
+                  selected={roku.name === candidateRoku.name}
+                  key={candidateRoku.name}
+                />
+              ))}
+            </div>
+          </>
+        )}
+      </RokuConsumer>
     </div>
   );
 
