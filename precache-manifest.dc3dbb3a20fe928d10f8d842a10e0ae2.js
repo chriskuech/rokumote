@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9c950f73a108dba8f77ac3a70b4676ee",
+    "revision": "989d5f8c4bd3037cfe045107197e4bb8",
     "url": "/rokumote/index.html"
   },
   {
