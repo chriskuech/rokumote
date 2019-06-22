@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/rokumote/static/css/main.123f5546.chunk.css",
-    "main.js": "/rokumote/static/js/main.33e8ce8f.chunk.js",
-    "main.js.map": "/rokumote/static/js/main.33e8ce8f.chunk.js.map",
+    "main.js": "/rokumote/static/js/main.573ae589.chunk.js",
+    "main.js.map": "/rokumote/static/js/main.573ae589.chunk.js.map",
     "runtime~main.js": "/rokumote/static/js/runtime~main.ab8ecf0c.js",
     "runtime~main.js.map": "/rokumote/static/js/runtime~main.ab8ecf0c.js.map",
-    "static/js/2.5d13f444.chunk.js": "/rokumote/static/js/2.5d13f444.chunk.js",
-    "static/js/2.5d13f444.chunk.js.map": "/rokumote/static/js/2.5d13f444.chunk.js.map",
+    "static/js/2.629b5cbe.chunk.js": "/rokumote/static/js/2.629b5cbe.chunk.js",
+    "static/js/2.629b5cbe.chunk.js.map": "/rokumote/static/js/2.629b5cbe.chunk.js.map",
     "index.html": "/rokumote/index.html",
-    "precache-manifest.ff877644115e8a6c3a7fbc04b54bd39a.js": "/rokumote/precache-manifest.ff877644115e8a6c3a7fbc04b54bd39a.js",
+    "precache-manifest.aefc74bf111367a595bad25547a1820e.js": "/rokumote/precache-manifest.aefc74bf111367a595bad25547a1820e.js",
     "service-worker.js": "/rokumote/service-worker.js",
     "static/css/main.123f5546.chunk.css.map": "/rokumote/static/css/main.123f5546.chunk.css.map"
   }
